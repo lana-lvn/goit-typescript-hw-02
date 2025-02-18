@@ -1,0 +1,21 @@
+.container {
+  width: 170px;
+  height: auto;
+  margin: 30px auto;
+}
+.loadMore {
+  width: 170px;
+  height: 56px;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: inherit;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.loadMore:hover {
+  background-color: var(--secondary-color);
+  cursor: pointer;
+}

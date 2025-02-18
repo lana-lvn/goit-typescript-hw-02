@@ -1,0 +1,30 @@
+.list {
+  margin: 30px auto;
+  max-width: 1200px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.listItem {
+  width: calc((100% - (3 * 15px)) / 4);
+  height: 180px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 992px) {
+  .listItem {
+    width: calc((100% - (2 * 15px)) / 3);
+  }
+}
+
+@media (max-width: 768px) {
+  .listItem {
+    width: calc((100% - 15px) / 2);
+  }
+}
+
+@media (max-width: 480px) {
+  .listItem {
+    width: 100%;
+  }
+}
